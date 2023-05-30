@@ -1,5 +1,6 @@
 # Supported machines
 #MACHINE ?= "rockpro64"
+#MACHINE ?= "rockchip-px30-evb"
 
 # temporarily disable kernel headers in order to circumvent a compile issue of kernel-headers-test
 BALENA_DISABLE_KERNEL_HEADERS = "1"
