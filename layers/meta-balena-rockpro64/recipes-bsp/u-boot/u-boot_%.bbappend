@@ -1,5 +1,7 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
+UBOOT_KCONFIG_SUPPORT = "1"
+
 inherit resin-u-boot
 
 # we use the precompiled bl31 from https://github.com/rockchip-linux/rkbin/commit/bc15c5e21557dad5440f8ed0312ec368f73e9476
