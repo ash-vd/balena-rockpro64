@@ -4,8 +4,6 @@ DEVICE_SPECIFIC_SPACE = "20480"
 # add the dtb, extlinux.conf and u-boot binaries to rootfs /boot directory
 IMAGE_INSTALL:append = " \
     kernel-devicetree \
-    u-boot-extlinux \
-    u-boot-blobless \
 "
 
 IMAGE_CMD:balenaos-img:append () {
